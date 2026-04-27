@@ -2,10 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./app/App";
 
-// Optional: import global styles if you have them
-// import "./styles/global.css";
+import "./styles/tailwind.css";
+import "./styles/index.css";
+import "./styles/theme.css";
+import "./styles/fonts.css";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
