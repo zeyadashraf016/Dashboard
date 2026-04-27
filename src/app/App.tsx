@@ -141,7 +141,7 @@ export default function App() {
       <Sidebar activeView={activeView} onViewChange={setActiveView} />
 
       <div className="flex-1 flex flex-col">
-        <TopBar technicianName="John Smith" currentTime={currentTime} />
+        <TopBar technicianName="Zeyad Ashraf" currentTime={currentTime} />
 
         <TimerPanel
           taskTimerActive={taskTimerActive}
